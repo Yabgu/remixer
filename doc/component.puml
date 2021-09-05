@@ -1,0 +1,9 @@
+@startuml
+
+package "Remixer" {
+  libremixer - [Multimedia Service]
+  RTP - [RTP Service]
+  [RTP Service] -> libremixer
+}
+
+@enduml
